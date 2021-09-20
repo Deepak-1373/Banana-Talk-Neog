@@ -1,0 +1,58 @@
+.container {
+  width: 50%;
+  height: 80vh;
+  margin: auto;
+  padding: 8vh;
+  background-color: #6ee7b7;
+}
+.container textarea {
+  width: 80%;
+  height: 20vh;
+  display: block;
+  margin: auto;
+}
+
+.container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: xx-large;
+  font-style: italic;
+  background-color: #064e3b;
+  height: 10%;
+  color: #fff;
+}
+
+.container h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container button {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  padding: 10px 55px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  background-color: #064e3b;
+  border: #064e3b;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.container button:hover {
+  cursor: pointer;
+}
+
+#output {
+  border: 1px solid rgb(51, 50, 50);
+  width: 80%;
+  display: block;
+  margin: auto;
+  height: 15vh;
+  background-color: #fff;
+}

@@ -4,11 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Talk Banana App</title>
+    <title>Banana Talk App</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Talk Banana 😁</h1>
-
+    <div class="container">
+      <h1>Banana talk</h1>
+      <textarea
+        id="text-input"
+        placeholder="Put your message here which you want to convert to banana language"
+      ></textarea>
+      <button id="btn-translate">Translate</button>
+      <h4>Translation will appear here 👇</h4>
+      <div id="output"></div>
+    </div>
     <script src="app.js" type="text/javascript"></script>
   </body>
 </html>
